@@ -5,7 +5,7 @@ public class Cheers {
             String cheer= args[0];
             int num= Integer.parseInt(args[1]);
             int i= 0;
-            String l= "AEFHILMNORSX";
+            String l= "AEFHILMNORSXaefhilmnorsx";
 
             while(i<cheer.length()){
                 char c= cheer.charAt(i);
