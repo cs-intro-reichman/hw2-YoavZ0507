@@ -20,7 +20,7 @@ public class Cheers {
         }
 
         for (int j= 0; j<num; j++){
-                System.out.println(cheer + "!!!");
+                System.out.println(cheer.toUpperCase() + "!!!");
         }
 
 
