@@ -10,13 +10,13 @@ public class Collatz {
 		if( vc.charAt(0) == 'v' ){
 		
 		while(i<=a){
-			System.out.print(" " + i+ " ");	
+			System.out.print( i);	
 		if(i%2==0){
 			b = i/2;
 		}else{
 			b= (i*3)+1;
 		}
-		System.out.print(" " + b+ " ");
+		System.out.print(" " + b );
 		int count = 2;
 		while(b!=1){
 			if(b%2==0){
@@ -24,12 +24,12 @@ public class Collatz {
 			}else{
 				b= (b*3)+1;
 			}
-		System.out.print(" " + b+ " ");
+		System.out.print(" " + b);
 			count++;
 		}
 
 	//	}
-		System.out.println("("+count+")");
+		System.out.println(" ("+count+")");
 		i++;
 
 		}
